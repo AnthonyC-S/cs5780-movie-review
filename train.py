@@ -2,7 +2,7 @@ from sklearn.model_selection import train_test_split, RandomizedSearchCV, GridSe
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
 import numpy as np
-import sys
+#import sys
 import joblib
 
 #np.set_printoptions(threshold=sys.maxsize)
@@ -71,23 +71,18 @@ test_predictions = np.empty([len(test_emb1)], dtype=np.int8)
 # Add predictions to array
 for i in range(len(test_emb1_probs)):
     if (test_emb1_probs[i])[0] > (test_emb2_probs[i])[0]:
-        test_predictions[i] = 1
-    elif (test_emb1_probs[i])[0] < (test_emb2_probs[i])[0]:
         test_predictions[i] = 0
+    elif (test_emb1_probs[i])[0] < (test_emb2_probs[i])[0]:
+        test_predictions[i] = 1
     else:
-        test_predictions[i] = 1 if (test_emb1_probs[i])[0] > (test_emb1_probs[i])[1] else 0
-
+        test_predictions[i] = 0 if (test_emb1_probs[i])[0] > (test_emb1_probs[i])[1] else 1
 
 # Sanity check to make sure predictions match probabilities
 # for i in range(50):
 #     print(test_emb1_probs[i], test_emb2_probs[i], test_predictions[i])
 
-# Apparently I had my 0 and 1 mixed up in test predictions and got a score of 0.07
-# Inverting the predictions below brings score up to 0.92 on leaderboard
-# Figured out why, in predict_proba, the returned estimates for all classes are ordered by the label of classes.
-test_predictions = np.logical_not(test_predictions).astype(np.int8)
-
+# Combine uid and predictions into array before saving to csv
 uid_preds = np.vstack((test_uid, test_predictions)).T
 
 # Save to csv, note need to manually add header
-np.savetxt("submission_2_svm.csv", uid_preds, delimiter=",", fmt='%s')
+np.savetxt("submission_3_svm.csv", uid_preds, delimiter=",", fmt='%s')
