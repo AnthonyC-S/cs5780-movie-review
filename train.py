@@ -2,7 +2,6 @@ from sklearn.model_selection import train_test_split, RandomizedSearchCV, GridSe
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
 import numpy as np
-#import sys
 import joblib
 
 #np.set_printoptions(threshold=sys.maxsize)
@@ -29,7 +28,6 @@ all_train_labels = np.concatenate((train_labels, neg_train_labels))
 # Shuffle and split data. Note, need to see if different splits (eg 10%, 15%) affect performance
 xTr, xVal, yTr, yVal = train_test_split(all_train_embeddings, all_train_labels, test_size=0.2, random_state=42)
 
-
 # # Hyperparameter Tuning for SVM Classifier
 # svm_classifier = SVC()
 
@@ -50,7 +48,7 @@ xTr, xVal, yTr, yVal = train_test_split(all_train_embeddings, all_train_labels, 
 # # Accuracy: 0.8397333333333333 C=1.5, gamma=1.5
 # # Accuracy: 0.8401333333333333 C=1.5, gamma=2
 
-# # Save SVM Classifier Model
+# # Save SVM Classifier Model - Please do not overwrite other saved models
 # joblib.dump(svm_classifier, "svm_classifier_c=1_5_gamma=3.pkl")
 
 # # Evaluate accuracy
@@ -68,7 +66,8 @@ test_emb2_probs = svm_classifier.predict_proba(test_emb2)
 # Create array to store preditions on test
 test_predictions = np.empty([len(test_emb1)], dtype=np.int8)
 
-# Add predictions to array
+# Add predictions to array - if emb1 and emb2 both predict the same review class, go with
+# the prediction that has higher confidence
 for i in range(len(test_emb1_probs)):
     if (test_emb1_probs[i])[0] > (test_emb2_probs[i])[0]:
         test_predictions[i] = 0
@@ -84,5 +83,5 @@ for i in range(len(test_emb1_probs)):
 # Combine uid and predictions into array before saving to csv
 uid_preds = np.vstack((test_uid, test_predictions)).T
 
-# Save to csv, note need to manually add header
+# Save to csv, note need to manually add header. Please make sure to not overwrite previous submissions
 np.savetxt("submission_3_svm.csv", uid_preds, delimiter=",", fmt='%s')
