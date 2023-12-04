@@ -1,0 +1,201 @@
+# Score Log for SVM Models, tested on yVal and Predictions
+# Accuracy: 0.8397333333333333               C=1.5    gamma=1.5
+# Accuracy: 0.8401333333333333               C=1.5    gamma=2
+# Submission 2: Accuracy: 0.8416             C=1.5    gamma=3
+# Submission 3: Accuracy: 0.8414666666666667 C=2.5    gamma=2.25
+
+
+
+Used on xTr and yTr
+Fitting 2 folds for each of 20 candidates, totalling 40 fits
+[CV 1/2] END .....C=1.25, gamma=2.5, kernel=rbf;, score=0.837 total time= 2.0min
+[CV 2/2] END .....C=1.25, gamma=2.5, kernel=rbf;, score=0.828 total time= 2.0min
+[CV 1/2] END ....C=1.25, gamma=2.75, kernel=rbf;, score=0.837 total time= 2.1min
+[CV 2/2] END ....C=1.25, gamma=2.75, kernel=rbf;, score=0.828 total time= 2.1min
+[CV 1/2] END .......C=1.25, gamma=3, kernel=rbf;, score=0.835 total time= 2.2min
+[CV 2/2] END .......C=1.25, gamma=3, kernel=rbf;, score=0.827 total time= 3.5min
+[CV 1/2] END ....C=1.25, gamma=3.25, kernel=rbf;, score=0.834 total time= 2.3min
+[CV 2/2] END ....C=1.25, gamma=3.25, kernel=rbf;, score=0.827 total time= 2.3min
+[CV 1/2] END .....C=1.25, gamma=3.5, kernel=rbf;, score=0.832 total time= 2.4min
+[CV 2/2] END .....C=1.25, gamma=3.5, kernel=rbf;, score=0.824 total time= 2.5min
+[CV 1/2] END ......C=1.5, gamma=2.5, kernel=rbf;, score=0.837 total time= 5.1min
+[CV 2/2] END ......C=1.5, gamma=2.5, kernel=rbf;, score=0.830 total time= 2.2min
+[CV 1/2] END .....C=1.5, gamma=2.75, kernel=rbf;, score=0.837 total time= 2.3min
+[CV 2/2] END .....C=1.5, gamma=2.75, kernel=rbf;, score=0.829 total time= 2.3min
+[CV 1/2] END ........C=1.5, gamma=3, kernel=rbf;, score=0.836 total time= 2.4min
+[CV 2/2] END ........C=1.5, gamma=3, kernel=rbf;, score=0.828 total time= 2.4min
+[CV 1/2] END .....C=1.5, gamma=3.25, kernel=rbf;, score=0.835 total time= 2.5min
+[CV 2/2] END .....C=1.5, gamma=3.25, kernel=rbf;, score=0.827 total time= 2.5min
+[CV 1/2] END ......C=1.5, gamma=3.5, kernel=rbf;, score=0.833 total time= 2.6min
+[CV 2/2] END ......C=1.5, gamma=3.5, kernel=rbf;, score=0.825 total time= 2.5min
+[CV 1/2] END .....C=1.75, gamma=2.5, kernel=rbf;, score=0.837 total time= 2.4min
+[CV 2/2] END .....C=1.75, gamma=2.5, kernel=rbf;, score=0.830 total time= 2.4min
+[CV 1/2] END ....C=1.75, gamma=2.75, kernel=rbf;, score=0.836 total time= 2.5min
+[CV 2/2] END ....C=1.75, gamma=2.75, kernel=rbf;, score=0.830 total time= 2.4min
+[CV 1/2] END .......C=1.75, gamma=3, kernel=rbf;, score=0.835 total time= 2.4min
+[CV 2/2] END .......C=1.75, gamma=3, kernel=rbf;, score=0.829 total time= 2.4min
+[CV 1/2] END ....C=1.75, gamma=3.25, kernel=rbf;, score=0.835 total time= 2.5min
+[CV 2/2] END ....C=1.75, gamma=3.25, kernel=rbf;, score=0.827 total time= 2.5min
+[CV 1/2] END .....C=1.75, gamma=3.5, kernel=rbf;, score=0.833 total time= 4.0min
+[CV 2/2] END .....C=1.75, gamma=3.5, kernel=rbf;, score=0.825 total time= 2.6min
+[CV 1/2] END ........C=2, gamma=2.5, kernel=rbf;, score=0.837 total time= 2.5min
+[CV 2/2] END ........C=2, gamma=2.5, kernel=rbf;, score=0.831 total time= 2.5min
+[CV 1/2] END .......C=2, gamma=2.75, kernel=rbf;, score=0.836 total time= 2.5min
+[CV 2/2] END .......C=2, gamma=2.75, kernel=rbf;, score=0.830 total time= 2.5min
+[CV 1/2] END ..........C=2, gamma=3, kernel=rbf;, score=0.835 total time= 2.6min
+[CV 2/2] END ..........C=2, gamma=3, kernel=rbf;, score=0.829 total time= 2.5min
+[CV 1/2] END .......C=2, gamma=3.25, kernel=rbf;, score=0.835 total time= 2.5min
+[CV 2/2] END .......C=2, gamma=3.25, kernel=rbf;, score=0.827 total time= 2.5min
+[CV 1/2] END ........C=2, gamma=3.5, kernel=rbf;, score=0.833 total time= 2.6min
+[CV 2/2] END ........C=2, gamma=3.5, kernel=rbf;, score=0.826 total time= 2.7min
+{'C': 2, 'gamma': 2.5, 'kernel': 'rbf'}
+SVC(C=2, gamma=2.5)
+
+
+
+Fitting 3 folds for each of 36 candidates, totalling 108 fits
+[CV 1/3] END ....C=1.25, gamma=2.25, kernel=rbf;, score=0.836 total time= 6.3min
+[CV 2/3] END ....C=1.25, gamma=2.25, kernel=rbf;, score=0.841 total time=18.6min
+[CV 3/3] END ....C=1.25, gamma=2.25, kernel=rbf;, score=0.842 total time= 6.3min
+[CV 1/3] END .....C=1.25, gamma=2.5, kernel=rbf;, score=0.836 total time= 5.3min
+[CV 2/3] END .....C=1.25, gamma=2.5, kernel=rbf;, score=0.842 total time= 5.3min
+[CV 3/3] END .....C=1.25, gamma=2.5, kernel=rbf;, score=0.842 total time= 5.3min
+[CV 1/3] END ....C=1.25, gamma=2.75, kernel=rbf;, score=0.835 total time= 5.5min
+[CV 2/3] END ....C=1.25, gamma=2.75, kernel=rbf;, score=0.842 total time= 5.5min
+[CV 3/3] END ....C=1.25, gamma=2.75, kernel=rbf;, score=0.841 total time= 5.6min
+[CV 1/3] END .......C=1.25, gamma=3, kernel=rbf;, score=0.835 total time= 5.8min
+[CV 2/3] END .......C=1.25, gamma=3, kernel=rbf;, score=0.841 total time=11.8min
+[CV 3/3] END .......C=1.25, gamma=3, kernel=rbf;, score=0.840 total time= 6.2min
+[CV 1/3] END ....C=1.25, gamma=3.25, kernel=rbf;, score=0.834 total time= 6.1min
+[CV 2/3] END ....C=1.25, gamma=3.25, kernel=rbf;, score=0.840 total time= 6.0min
+[CV 3/3] END ....C=1.25, gamma=3.25, kernel=rbf;, score=0.838 total time= 6.0min
+[CV 1/3] END .....C=1.25, gamma=3.5, kernel=rbf;, score=0.832 total time= 6.1min
+[CV 2/3] END .....C=1.25, gamma=3.5, kernel=rbf;, score=0.839 total time= 6.2min
+[CV 3/3] END .....C=1.25, gamma=3.5, kernel=rbf;, score=0.837 total time= 6.3min
+[CV 1/3] END .....C=1.5, gamma=2.25, kernel=rbf;, score=0.837 total time= 5.6min
+[CV 2/3] END .....C=1.5, gamma=2.25, kernel=rbf;, score=0.842 total time= 5.6min
+[CV 3/3] END .....C=1.5, gamma=2.25, kernel=rbf;, score=0.843 total time= 5.6min
+[CV 1/3] END ......C=1.5, gamma=2.5, kernel=rbf;, score=0.836 total time= 5.8min
+[CV 2/3] END ......C=1.5, gamma=2.5, kernel=rbf;, score=0.843 total time= 5.8min
+[CV 3/3] END ......C=1.5, gamma=2.5, kernel=rbf;, score=0.842 total time= 5.8min
+[CV 1/3] END .....C=1.5, gamma=2.75, kernel=rbf;, score=0.836 total time= 6.0min
+[CV 2/3] END .....C=1.5, gamma=2.75, kernel=rbf;, score=0.843 total time= 6.0min
+[CV 3/3] END .....C=1.5, gamma=2.75, kernel=rbf;, score=0.842 total time= 6.0min
+[CV 1/3] END ........C=1.5, gamma=3, kernel=rbf;, score=0.836 total time= 6.1min
+[CV 2/3] END ........C=1.5, gamma=3, kernel=rbf;, score=0.842 total time= 6.2min
+[CV 3/3] END ........C=1.5, gamma=3, kernel=rbf;, score=0.840 total time= 6.2min
+[CV 1/3] END .....C=1.5, gamma=3.25, kernel=rbf;, score=0.835 total time= 6.3min
+[CV 2/3] END .....C=1.5, gamma=3.25, kernel=rbf;, score=0.841 total time= 6.4min
+[CV 3/3] END .....C=1.5, gamma=3.25, kernel=rbf;, score=0.839 total time= 6.3min
+[CV 1/3] END ......C=1.5, gamma=3.5, kernel=rbf;, score=0.834 total time= 6.5min
+[CV 2/3] END ......C=1.5, gamma=3.5, kernel=rbf;, score=0.840 total time= 6.5min
+[CV 3/3] END ......C=1.5, gamma=3.5, kernel=rbf;, score=0.839 total time= 6.5min
+[CV 1/3] END ....C=1.75, gamma=2.25, kernel=rbf;, score=0.838 total time= 5.9min
+[CV 2/3] END ....C=1.75, gamma=2.25, kernel=rbf;, score=0.842 total time= 6.0min
+[CV 3/3] END ....C=1.75, gamma=2.25, kernel=rbf;, score=0.843 total time= 5.9min
+[CV 1/3] END .....C=1.75, gamma=2.5, kernel=rbf;, score=0.837 total time= 6.2min
+[CV 2/3] END .....C=1.75, gamma=2.5, kernel=rbf;, score=0.843 total time= 6.2min
+[CV 3/3] END .....C=1.75, gamma=2.5, kernel=rbf;, score=0.843 total time= 6.1min
+[CV 1/3] END ....C=1.75, gamma=2.75, kernel=rbf;, score=0.835 total time= 6.3min
+[CV 2/3] END ....C=1.75, gamma=2.75, kernel=rbf;, score=0.843 total time= 6.4min
+[CV 3/3] END ....C=1.75, gamma=2.75, kernel=rbf;, score=0.842 total time= 6.3min
+[CV 1/3] END .......C=1.75, gamma=3, kernel=rbf;, score=0.835 total time= 6.4min
+[CV 2/3] END .......C=1.75, gamma=3, kernel=rbf;, score=0.842 total time= 6.4min
+[CV 3/3] END .......C=1.75, gamma=3, kernel=rbf;, score=0.841 total time= 6.4min
+[CV 1/3] END ....C=1.75, gamma=3.25, kernel=rbf;, score=0.835 total time= 6.5min
+[CV 2/3] END ....C=1.75, gamma=3.25, kernel=rbf;, score=0.842 total time= 6.6min
+[CV 3/3] END ....C=1.75, gamma=3.25, kernel=rbf;, score=0.840 total time= 6.6min
+[CV 1/3] END .....C=1.75, gamma=3.5, kernel=rbf;, score=0.834 total time= 6.7min
+[CV 2/3] END .....C=1.75, gamma=3.5, kernel=rbf;, score=0.840 total time= 6.7min
+[CV 3/3] END .....C=1.75, gamma=3.5, kernel=rbf;, score=0.839 total time= 6.7min
+[CV 1/3] END .......C=2, gamma=2.25, kernel=rbf;, score=0.838 total time= 6.3min
+[CV 2/3] END .......C=2, gamma=2.25, kernel=rbf;, score=0.843 total time= 6.3min
+[CV 3/3] END .......C=2, gamma=2.25, kernel=rbf;, score=0.843 total time= 6.4min
+[CV 1/3] END ........C=2, gamma=2.5, kernel=rbf;, score=0.837 total time= 6.4min
+[CV 2/3] END ........C=2, gamma=2.5, kernel=rbf;, score=0.843 total time= 6.4min
+[CV 3/3] END ........C=2, gamma=2.5, kernel=rbf;, score=0.842 total time= 6.5min
+[CV 1/3] END .......C=2, gamma=2.75, kernel=rbf;, score=0.835 total time= 6.5min
+[CV 2/3] END .......C=2, gamma=2.75, kernel=rbf;, score=0.843 total time= 6.5min
+[CV 3/3] END .......C=2, gamma=2.75, kernel=rbf;, score=0.842 total time= 6.6min
+[CV 1/3] END ..........C=2, gamma=3, kernel=rbf;, score=0.836 total time= 6.5min
+[CV 2/3] END ..........C=2, gamma=3, kernel=rbf;, score=0.843 total time= 6.6min
+[CV 3/3] END ..........C=2, gamma=3, kernel=rbf;, score=0.840 total time= 6.6min
+[CV 1/3] END .......C=2, gamma=3.25, kernel=rbf;, score=0.835 total time= 6.6min
+[CV 2/3] END .......C=2, gamma=3.25, kernel=rbf;, score=0.843 total time= 6.7min
+[CV 3/3] END .......C=2, gamma=3.25, kernel=rbf;, score=0.840 total time= 6.6min
+[CV 1/3] END ........C=2, gamma=3.5, kernel=rbf;, score=0.833 total time= 6.7min
+[CV 2/3] END ........C=2, gamma=3.5, kernel=rbf;, score=0.840 total time= 6.8min
+[CV 3/3] END ........C=2, gamma=3.5, kernel=rbf;, score=0.838 total time= 6.8min
+[CV 1/3] END ....C=2.25, gamma=2.25, kernel=rbf;, score=0.838 total time= 6.6min
+[CV 2/3] END ....C=2.25, gamma=2.25, kernel=rbf;, score=0.843 total time= 6.6min
+[CV 3/3] END ....C=2.25, gamma=2.25, kernel=rbf;, score=0.842 total time= 6.7min
+[CV 1/3] END .....C=2.25, gamma=2.5, kernel=rbf;, score=0.837 total time= 6.6min
+[CV 2/3] END .....C=2.25, gamma=2.5, kernel=rbf;, score=0.843 total time= 6.7min
+[CV 3/3] END .....C=2.25, gamma=2.5, kernel=rbf;, score=0.842 total time= 6.7min
+[CV 1/3] END ....C=2.25, gamma=2.75, kernel=rbf;, score=0.836 total time= 6.6min
+[CV 2/3] END ....C=2.25, gamma=2.75, kernel=rbf;, score=0.842 total time= 6.7min
+[CV 3/3] END ....C=2.25, gamma=2.75, kernel=rbf;, score=0.842 total time= 6.7min
+[CV 1/3] END .......C=2.25, gamma=3, kernel=rbf;, score=0.835 total time= 6.6min
+[CV 2/3] END .......C=2.25, gamma=3, kernel=rbf;, score=0.843 total time= 6.6min
+[CV 3/3] END .......C=2.25, gamma=3, kernel=rbf;, score=0.840 total time= 6.7min
+[CV 1/3] END ....C=2.25, gamma=3.25, kernel=rbf;, score=0.835 total time= 6.7min
+[CV 2/3] END ....C=2.25, gamma=3.25, kernel=rbf;, score=0.843 total time= 6.7min
+[CV 3/3] END ....C=2.25, gamma=3.25, kernel=rbf;, score=0.840 total time= 6.8min
+[CV 1/3] END .....C=2.25, gamma=3.5, kernel=rbf;, score=0.833 total time= 6.8min
+[CV 2/3] END .....C=2.25, gamma=3.5, kernel=rbf;, score=0.841 total time= 6.8min
+[CV 3/3] END .....C=2.25, gamma=3.5, kernel=rbf;, score=0.838 total time= 6.9min
+[CV 1/3] END .....C=2.5, gamma=2.25, kernel=rbf;, score=0.838 total time= 6.7min
+[CV 2/3] END .....C=2.5, gamma=2.25, kernel=rbf;, score=0.844 total time= 6.7min
+[CV 3/3] END .....C=2.5, gamma=2.25, kernel=rbf;, score=0.843 total time= 6.7min
+[CV 1/3] END ......C=2.5, gamma=2.5, kernel=rbf;, score=0.837 total time= 6.7min
+[CV 2/3] END ......C=2.5, gamma=2.5, kernel=rbf;, score=0.843 total time= 6.8min
+[CV 3/3] END ......C=2.5, gamma=2.5, kernel=rbf;, score=0.842 total time= 6.7min
+[CV 1/3] END .....C=2.5, gamma=2.75, kernel=rbf;, score=0.836 total time= 6.7min
+[CV 2/3] END .....C=2.5, gamma=2.75, kernel=rbf;, score=0.842 total time= 6.8min
+[CV 3/3] END .....C=2.5, gamma=2.75, kernel=rbf;, score=0.842 total time= 6.7min
+[CV 1/3] END ........C=2.5, gamma=3, kernel=rbf;, score=0.835 total time= 6.7min
+[CV 2/3] END ........C=2.5, gamma=3, kernel=rbf;, score=0.843 total time= 6.8min
+[CV 3/3] END ........C=2.5, gamma=3, kernel=rbf;, score=0.840 total time= 6.8min
+[CV 1/3] END .....C=2.5, gamma=3.25, kernel=rbf;, score=0.835 total time= 6.6min
+[CV 2/3] END .....C=2.5, gamma=3.25, kernel=rbf;, score=0.843 total time= 6.7min
+[CV 3/3] END .....C=2.5, gamma=3.25, kernel=rbf;, score=0.840 total time= 6.8min
+[CV 1/3] END ......C=2.5, gamma=3.5, kernel=rbf;, score=0.833 total time= 6.8min
+[CV 2/3] END ......C=2.5, gamma=3.5, kernel=rbf;, score=0.841 total time= 6.9min
+[CV 3/3] END ......C=2.5, gamma=3.5, kernel=rbf;, score=0.838 total time= 6.9min
+{'C': 2.5, 'gamma': 2.25, 'kernel': 'rbf'}
+SVC(C=2.5, gamma=2.25)
+
+
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+[CV 1/3] END ..........C=3, gamma=2, kernel=rbf;, score=0.836 total time= 6.9min
+[CV 2/3] END ..........C=3, gamma=2, kernel=rbf;, score=0.843 total time= 7.0min
+[CV 3/3] END ..........C=3, gamma=2, kernel=rbf;, score=0.842 total time= 7.1min
+[CV 1/3] END ..........C=3, gamma=3, kernel=rbf;, score=0.835 total time= 6.5min
+[CV 2/3] END ..........C=3, gamma=3, kernel=rbf;, score=0.843 total time= 6.6min
+[CV 3/3] END ..........C=3, gamma=3, kernel=rbf;, score=0.840 total time= 6.6min
+[CV 1/3] END ..........C=4, gamma=2, kernel=rbf;, score=0.835 total time= 7.0min
+[CV 2/3] END ..........C=4, gamma=2, kernel=rbf;, score=0.843 total time= 7.1min
+[CV 3/3] END ..........C=4, gamma=2, kernel=rbf;, score=0.842 total time= 7.3min
+[CV 1/3] END ..........C=4, gamma=3, kernel=rbf;, score=0.835 total time= 6.5min
+[CV 2/3] END ..........C=4, gamma=3, kernel=rbf;, score=0.843 total time= 6.6min
+[CV 3/3] END ..........C=4, gamma=3, kernel=rbf;, score=0.841 total time= 6.7min
+[CV 1/3] END ..........C=5, gamma=2, kernel=rbf;, score=0.835 total time= 7.1min
+[CV 2/3] END ..........C=5, gamma=2, kernel=rbf;, score=0.843 total time= 7.2min
+[CV 3/3] END ..........C=5, gamma=2, kernel=rbf;, score=0.842 total time= 7.3min
+[CV 1/3] END ..........C=5, gamma=3, kernel=rbf;, score=0.835 total time= 6.5min
+[CV 2/3] END ..........C=5, gamma=3, kernel=rbf;, score=0.843 total time= 6.7min
+[CV 3/3] END ..........C=5, gamma=3, kernel=rbf;, score=0.841 total time= 6.7min
+[CV 1/3] END ..........C=6, gamma=2, kernel=rbf;, score=0.835 total time= 7.0min
+[CV 2/3] END ..........C=6, gamma=2, kernel=rbf;, score=0.843 total time= 7.2min
+[CV 3/3] END ..........C=6, gamma=2, kernel=rbf;, score=0.842 total time= 7.3min
+[CV 1/3] END ..........C=6, gamma=3, kernel=rbf;, score=0.835 total time= 6.6min
+[CV 2/3] END ..........C=6, gamma=3, kernel=rbf;, score=0.843 total time= 6.6min
+[CV 3/3] END ..........C=6, gamma=3, kernel=rbf;, score=0.841 total time= 6.6min
+[CV 1/3] END ..........C=7, gamma=2, kernel=rbf;, score=0.835 total time= 7.0min
+[CV 2/3] END ..........C=7, gamma=2, kernel=rbf;, score=0.843 total time= 7.2min
+[CV 3/3] END ..........C=7, gamma=2, kernel=rbf;, score=0.842 total time= 7.3min
+[CV 1/3] END ..........C=7, gamma=3, kernel=rbf;, score=0.835 total time= 6.5min
+[CV 2/3] END ..........C=7, gamma=3, kernel=rbf;, score=0.843 total time= 6.6min
+[CV 3/3] END ..........C=7, gamma=3, kernel=rbf;, score=0.841 total time= 6.7min
+{'C': 3, 'gamma': 2, 'kernel': 'rbf'}
+SVC(C=3, gamma=2)
